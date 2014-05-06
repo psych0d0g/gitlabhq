@@ -9,6 +9,8 @@ coverage/*
 backups/*
 *.swp
 public/uploads/
+.ruby-version
+.ruby-gemset
 .rvmrc
 .rbenv-version
 .directory
@@ -18,8 +20,8 @@ Vagrantfile
 config/gitlab.yml
 config/database.yml
 config/initializers/omniauth.rb
+config/initializers/rack_attack.rb
 config/unicorn.rb
-config/puma.rb
 config/resque.yml
 config/aws.yml
 db/data.yml
@@ -32,3 +34,6 @@ doc/code/*
 .secret
 *.log
 public/uploads.*
+public/assets/
+.envrc
+dump.rdb
